@@ -1,0 +1,42 @@
+export const initialMovies = [
+  {
+    id: 1,
+    title: "The Grand Budapest Hotel",
+    director: "Wes Anderson",
+    released: 1980,
+    favorite: false,
+    genre: "comedy / drama",
+  },
+  {
+    id: 2,
+    title: "Twilight",
+    director: "Catherine Hardwicke",
+    released: 2008,
+    favorite: true,
+    genre: "romance / drama / fantasy",
+  },
+  {
+    id: 3,
+    title: "Catwoman",
+    director: "Pitof",
+    released: 2004,
+    favorite: false,
+    genre: "crime / action / fantasy",
+  },
+  {
+    id: 4,
+    title: "Dune",
+    director: "Denis Villeneuve",
+    released: 2021,
+    favorite: false,
+    genre: "action / drama / adventure",
+  },
+  {
+    id: 5,
+    title: "Interstellar",
+    director: "Christopher Nolan",
+    released: 2014,
+    favorite: true,
+    genre: "adventure / drama",
+  },
+];

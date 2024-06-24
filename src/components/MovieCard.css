@@ -1,0 +1,77 @@
+.movie-card {
+  position: relative;
+
+  border: 1px solid gray;
+  border-radius: 22px;
+  width: 280px;
+  text-align: left;
+  padding-left: 16px;
+  margin-bottom: 14px;
+
+  align-content: center;
+}
+
+.movie-card:hover {
+  box-shadow: 0px 0px 6px 3px rgb(54, 71, 227, 0.1);
+  border: 1px solid rgb(39, 150, 255);
+}
+
+h2,
+h3,
+h5 {
+  margin: 14px;
+}
+
+/* title */
+h3 {
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 210px;
+}
+
+h5 {
+  border: 1px solid rgb(187, 175, 240);
+  background-color: rgb(236, 236, 251);
+  display: inline;
+  padding: 6px 10px;
+  border-radius: 3px;
+
+  cursor: pointer;
+}
+
+.favorite-icon {
+  position: absolute;
+  top: -6px;
+  right: 22px;
+  font-size: 20px;
+  cursor: pointer;
+
+  transition: 2ms;
+}
+
+.remove-icon {
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: absolute;
+  padding: 14px 10px 18px 10px;
+
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 0px;
+  bottom: -6px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.remove-icon:hover {
+  border: 1px solid rgb(184, 4, 4);
+  color: rgb(184, 4, 4);
+}
+
+.genre {
+  font-size: 14px;
+  margin-left: 16px;
+  padding-top: 6px;
+  color: rgb(13, 3, 76);
+}
